@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ebe5a2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #0e0d0d;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(40, 84, 115);
+    color: #ebe5a2;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+
+.delete:hover {
+    text-decoration: underline;
+}
+
+.balance, .totalMoney {
+    font-weight: bold;
+    font-size: 18px;
+}
+button {
+    color: rgb(40, 84, 115);
+    
+}
